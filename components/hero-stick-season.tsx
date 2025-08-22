@@ -1,22 +1,22 @@
 import Image from 'next/image';
 import BackgroundImage from '@/assets/sticks.jpg';
-// import { ArrowDown01Icon } from 'hugeicons-react';
+import { Tree07Icon } from 'hugeicons-react';
 
 export default function Hero() {
   return (
-    <div className="relative h-screen w-full bg-black">
+    <div className="relative h-screen w-full bg-[#ECE1D1] overflow-hidden">
       <Image
         src={BackgroundImage}
         alt="Background"
         fill
-        className="object-cover opacity-100"
-        style={{ objectPosition: 'left 75%' }}
+        className="object-cover object-top opacity-100"
       />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-3">
-        <p className="text-white text-center text-3xl font-sans font-bold tracking-normal text-shadow-md">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-3 items-center">
+        <Tree07Icon className="w-20 h-20 text-white" />
+        <p className="text-white text-center text-3xl font-sans font-bold tracking-normal text-shadow-md -mb-4">
           I love vermont, but it&apos;s the
         </p>
-        <h1 className="text-white text-center text-7xl font-sans font-bold tracking-tight text-shadow-md">
+        <h1 className="text-white text-center text-8xl font-sans font-bold tracking-tight text-shadow-md">
           Season of the sticks
         </h1>
         <p className="text-white text-center text-2xl font-sans font-bold tracking-normal text-shadow-md">

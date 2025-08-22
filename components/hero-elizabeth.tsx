@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import BackgroundImage from '@/assets/cape-elizabeth.png';
-import { ArrowDown01Icon } from 'hugeicons-react';
+import { ArrowDown01Icon, LighthouseIcon } from 'hugeicons-react';
 
 export default function Hero() {
   return (
@@ -11,14 +11,15 @@ export default function Hero() {
         fill
         className="object-cover opacity-90"
       />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-3">
-        <p className="text-white text-center text-2xl font-sans font-bold tracking-normal text-shadow-md">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-3 items-center">
+        <LighthouseIcon className="w-20 h-20 text-white" />
+        <p className="text-white text-center text-3xl font-sans font-bold tracking-normal text-shadow-md -mb-4">
           And does the wind blow, in
         </p>
-        <h1 className="text-white text-center text-8xl font-hand font-bold text-shadow-md">
+        <h1 className="text-white text-center text-9xl font-hand font-bold text-shadow-md">
           Cape Elizabeth
         </h1>
-        <p className="text-white text-center text-2xl font-sans font-bold tracking-normal text-shadow-md">
+        <p className="text-white text-center text-2xl font-sans font-bold tracking-normal text-shadow-lg mt-2">
           constant and cold, how do we live with this?
         </p>
       </div>
