@@ -14,7 +14,7 @@ export default function Hero() {
       />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-3">
         <p className="text-white text-center text-3xl font-sans font-bold tracking-normal text-shadow-md">
-          And i love vermont, but it&apos;s the
+          I love vermont, but it&apos;s the
         </p>
         <h1 className="text-white text-center text-7xl font-sans font-bold tracking-tight text-shadow-md">
           Season of the sticks
